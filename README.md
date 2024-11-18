@@ -35,8 +35,8 @@ All independent variables are scaled (standardized) for better model performance
   - False Positives (FP)
   - False Negatives (FN)
 
-8. Accuracy Calculation
-Model accuracy is calculated as:
+### **8. Accuracy Calculation**
+- Model accuracy is calculated as:
 Accuracy
 =
 TP
