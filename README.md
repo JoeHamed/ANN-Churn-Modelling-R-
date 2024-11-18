@@ -37,6 +37,7 @@ All independent variables are scaled (standardized) for better model performance
 
 ### **8. Accuracy Calculation**
 - Model accuracy is calculated as:
+
 $`
 \large \text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total Observations}}
 `$
