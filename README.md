@@ -37,16 +37,7 @@ All independent variables are scaled (standardized) for better model performance
 
 ### **8. Accuracy Calculation**
 - Model accuracy is calculated as:
-Accuracy
-=
-TP
-+
-TN
-Total Observations
-Accuracy= 
-Total Observations
-TP+TN
-​
+​$Accuracy=(TP+TN)/Total Observations$ 
  
 The script achieves an accuracy of 85.85% (0.8585).
 9. Clean-Up
