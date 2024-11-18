@@ -4,14 +4,18 @@ This R script demonstrates the implementation of an Artificial Neural Network (A
 ## Key Steps in the Script
 **1. Importing the Dataset**
 - The dataset (Churn_Modelling.csv) is imported and columns irrelevant to the analysis are excluded, starting from the 4th column to the last (4:ncol(dataset)).
+  
 **2. Encoding Categorical Variables**
 - Geography: Encoded into numeric values corresponding to France (1), Spain (2), and Germany (3).
 - Gender: Converted to binary values 0 (No) and 1 (Yes).
+  
 **3. Splitting the Data**
 - The dataset is divided into training (80%) and test (20%) sets using the caTools library.
 - The Exited column is used as the target variable to stratify the split.
+  
 **4. Feature Scaling**
 All independent variables are scaled (standardized) for better model performance, excluding the target column (Exited).
+
 **5. Building and Training the ANN**
 The h2o.deeplearning function is used to construct and train the ANN:
 Target Variable: Exited.
