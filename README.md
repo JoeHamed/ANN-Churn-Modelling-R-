@@ -1,5 +1,5 @@
 # Artificial Neural Networks (ANN) Script using h2o
-This R script demonstrates the implementation of an Artificial Neural Network (ANN) for predicting customer churn based on a dataset. It leverages the h2o package for building and training the ANN model, enabling efficient and scalable computations.
+This R script demonstrates the implementation of an Artificial Neural Network (ANN) for predicting customer churn based on a dataset. It leverages the ==h2o== package for building and training the ANN model, enabling efficient and scalable computations.
 
 ## Key Steps in the Script
 ### **1. Importing the Dataset**
