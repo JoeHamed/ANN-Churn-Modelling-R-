@@ -42,16 +42,18 @@ $`
 \large \text{Accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total Observations}}
 `$
 
- 
-The script achieves an accuracy of 85.85% (0.8585).
-9. Clean-Up
-The H2O session is shut down at the end to release resources.
-Why Use H2O for ANN?
-High Performance: Utilizes all available CPU cores for parallel computation.
-Scalability: Handles large datasets effectively.
-Ease of Use: Provides a high-level API for creating complex neural networks with minimal configuration.
-Possible Enhancements
-Hyperparameter Tuning: Experiment with different numbers of neurons, layers, activation functions, and learning rates.
-Feature Selection: Perform feature importance analysis to remove irrelevant variables.
-Cross-Validation: Use k-fold cross-validation to ensure the model generalizes well.
-Performance Metrics: Evaluate additional metrics like precision, recall, F1-score, and ROC-AUC for deeper insights.
+- The script achieves an accuracy of 85.85% (0.8585).
+  
+### **9. Clean-Up**
+- The H2O session is shut down at the end to release resources.
+  
+## Why Use H2O for ANN?
+- **High Performance**: Utilizes all available CPU cores for parallel computation.
+- **Scalability**: Handles large datasets effectively.
+- **Ease of Use**: Provides a high-level API for creating complex neural networks with minimal configuration.
+  
+## Possible Enhancements
+- **Hyperparameter Tuning**: Experiment with different numbers of neurons, layers, activation functions, and learning rates.
+- **Feature Selection**: Perform feature importance analysis to remove irrelevant variables.
+- **Cross-Validation**: Use k-fold cross-validation to ensure the model generalizes well.
+- **Performance Metrics**: Evaluate additional metrics like precision, recall, F1-score, and ROC-AUC for deeper insights.
